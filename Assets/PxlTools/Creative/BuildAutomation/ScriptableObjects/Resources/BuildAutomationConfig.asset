@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aad9dcc1639d484c80e8d6cc2a510bd, type: 3}
+  m_Name: BuildAutomationConfig
+  m_EditorClassIdentifier: 
+  _mainScenes:
+  - Name: Main
+    Path: Assets/Game/Scenes/Main.unity
+  _demoScenes:
+  - Name: Input Manager Demo
+    Path: Assets/PxlTools/_Demos/_Input/InputManagerDemo.unity
+  - Name: Swipe Area Demo
+    Path: Assets/PxlTools/_Demos/_Extensions/_UI/_SwipeAreaDemo/SwipeAreaDemo.unity
+  _isDevelopmentBuild: 1
+  _includeDemoScenes: 1
+  _additionalScriptingDefines: []
+  _buildName: PxlTools
+  _reportName: buildreport
+  _iOSPathAppend: iOS
+  _androidPathAppend: Android
+  _webGLPathAppend: WebGL
+  _standaloneBuildOutputPath: Builds/Standalone
+  _exportBuildOutputPath: Builds/Exported

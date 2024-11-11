@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Scenes/Main.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/PxlTools/_Demos/_Extensions/_UI/_SwipeAreaDemo/SwipeAreaDemo.unity
+    guid: edf6fdf634ad6464a94aa362c0e64be5
+  - enabled: 1
+    path: Assets/PxlTools/_Demos/_Input/InputManagerDemo.unity
+    guid: 8230c40f216c2ad43b71a6d09ce616ab
+  m_configObjects: {}
